@@ -1,0 +1,2277 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "VideoFeedSDK",
+    "printedName": "VideoFeedSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VideoFeedSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VideoFeedSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VideoFeedSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VideoFeedSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VideoFeedSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VideoFeedSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VideoFeedCarrouselCollectionViewCell",
+        "printedName": "VideoFeedCarrouselCollectionViewCell",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "awakeFromNib",
+            "printedName": "awakeFromNib()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VideoFeedSDK@objc(cs)VideoFeedCarrouselCollectionViewCell(im)awakeFromNib",
+            "mangledName": "$s12VideoFeedSDK0aB27CarrouselCollectionViewCellC12awakeFromNibyyF",
+            "moduleName": "VideoFeedSDK",
+            "overriding": true,
+            "objc_name": "awakeFromNib",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "load",
+            "printedName": "load(with:adunitPath:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any VideoFeedSDK.VideoFeedCarousselDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VideoFeedCarousselDelegate",
+                    "printedName": "any VideoFeedSDK.VideoFeedCarousselDelegate",
+                    "usr": "s:12VideoFeedSDK0aB17CarousselDelegateP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12VideoFeedSDK0aB27CarrouselCollectionViewCellC4load4with10adunitPath8delegateySS_SSSgAA0aB17CarousselDelegate_pSgtF",
+            "mangledName": "$s12VideoFeedSDK0aB27CarrouselCollectionViewCellC4load4with10adunitPath8delegateySS_SSSgAA0aB17CarousselDelegate_pSgtF",
+            "moduleName": "VideoFeedSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VideoFeedCarrouselCollectionViewCell",
+                "printedName": "VideoFeedSDK.VideoFeedCarrouselCollectionViewCell",
+                "usr": "c:@M@VideoFeedSDK@objc(cs)VideoFeedCarrouselCollectionViewCell"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@VideoFeedSDK@objc(cs)VideoFeedCarrouselCollectionViewCell(im)initWithFrame:",
+            "mangledName": "$s12VideoFeedSDK0aB27CarrouselCollectionViewCellC5frameACSo6CGRectV_tcfc",
+            "moduleName": "VideoFeedSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "VideoFeedSDK.VideoFeedCarrouselCollectionViewCell?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VideoFeedCarrouselCollectionViewCell",
+                    "printedName": "VideoFeedSDK.VideoFeedCarrouselCollectionViewCell",
+                    "usr": "c:@M@VideoFeedSDK@objc(cs)VideoFeedCarrouselCollectionViewCell"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@VideoFeedSDK@objc(cs)VideoFeedCarrouselCollectionViewCell(im)initWithCoder:",
+            "mangledName": "$s12VideoFeedSDK0aB27CarrouselCollectionViewCellC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "VideoFeedSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "nib",
+            "printedName": "nib",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UINib",
+                "printedName": "UIKit.UINib",
+                "usr": "c:objc(cs)UINib"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12VideoFeedSDK0aB27CarrouselCollectionViewCellC3nibSo5UINibCvpZ",
+            "mangledName": "$s12VideoFeedSDK0aB27CarrouselCollectionViewCellC3nibSo5UINibCvpZ",
+            "moduleName": "VideoFeedSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UINib",
+                    "printedName": "UIKit.UINib",
+                    "usr": "c:objc(cs)UINib"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12VideoFeedSDK0aB27CarrouselCollectionViewCellC3nibSo5UINibCvgZ",
+                "mangledName": "$s12VideoFeedSDK0aB27CarrouselCollectionViewCellC3nibSo5UINibCvgZ",
+                "moduleName": "VideoFeedSDK",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@VideoFeedSDK@objc(cs)VideoFeedCarrouselCollectionViewCell",
+        "mangledName": "$s12VideoFeedSDK0aB27CarrouselCollectionViewCellC",
+        "moduleName": "VideoFeedSDK",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UICollectionViewCell",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UICollectionViewCell",
+          "UIKit.UICollectionReusableView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VideoFeedSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VideoFeedCarrouselTableViewCell",
+        "printedName": "VideoFeedCarrouselTableViewCell",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "awakeFromNib",
+            "printedName": "awakeFromNib()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VideoFeedSDK@objc(cs)VideoFeedCarrouselTableViewCell(im)awakeFromNib",
+            "mangledName": "$s12VideoFeedSDK0aB22CarrouselTableViewCellC12awakeFromNibyyF",
+            "moduleName": "VideoFeedSDK",
+            "overriding": true,
+            "objc_name": "awakeFromNib",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "load",
+            "printedName": "load(with:adunitPath:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any VideoFeedSDK.VideoFeedCarousselDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VideoFeedCarousselDelegate",
+                    "printedName": "any VideoFeedSDK.VideoFeedCarousselDelegate",
+                    "usr": "s:12VideoFeedSDK0aB17CarousselDelegateP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12VideoFeedSDK0aB22CarrouselTableViewCellC4load4with10adunitPath8delegateySS_SSSgAA0aB17CarousselDelegate_pSgtF",
+            "mangledName": "$s12VideoFeedSDK0aB22CarrouselTableViewCellC4load4with10adunitPath8delegateySS_SSSgAA0aB17CarousselDelegate_pSgtF",
+            "moduleName": "VideoFeedSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(style:reuseIdentifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VideoFeedCarrouselTableViewCell",
+                "printedName": "VideoFeedSDK.VideoFeedCarrouselTableViewCell",
+                "usr": "c:@M@VideoFeedSDK@objc(cs)VideoFeedCarrouselTableViewCell"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CellStyle",
+                "printedName": "UIKit.UITableViewCell.CellStyle",
+                "usr": "c:@E@UITableViewCellStyle"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@VideoFeedSDK@objc(cs)VideoFeedCarrouselTableViewCell(im)initWithStyle:reuseIdentifier:",
+            "mangledName": "$s12VideoFeedSDK0aB22CarrouselTableViewCellC5style15reuseIdentifierACSo07UITablefG5StyleV_SSSgtcfc",
+            "moduleName": "VideoFeedSDK",
+            "overriding": true,
+            "implicit": true,
+            "intro_iOS": "3.0",
+            "objc_name": "initWithStyle:reuseIdentifier:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "Available"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "VideoFeedSDK.VideoFeedCarrouselTableViewCell?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VideoFeedCarrouselTableViewCell",
+                    "printedName": "VideoFeedSDK.VideoFeedCarrouselTableViewCell",
+                    "usr": "c:@M@VideoFeedSDK@objc(cs)VideoFeedCarrouselTableViewCell"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@VideoFeedSDK@objc(cs)VideoFeedCarrouselTableViewCell(im)initWithCoder:",
+            "mangledName": "$s12VideoFeedSDK0aB22CarrouselTableViewCellC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "VideoFeedSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "nib",
+            "printedName": "nib",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UINib",
+                "printedName": "UIKit.UINib",
+                "usr": "c:objc(cs)UINib"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12VideoFeedSDK0aB22CarrouselTableViewCellC3nibSo5UINibCvpZ",
+            "mangledName": "$s12VideoFeedSDK0aB22CarrouselTableViewCellC3nibSo5UINibCvpZ",
+            "moduleName": "VideoFeedSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UINib",
+                    "printedName": "UIKit.UINib",
+                    "usr": "c:objc(cs)UINib"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12VideoFeedSDK0aB22CarrouselTableViewCellC3nibSo5UINibCvgZ",
+                "mangledName": "$s12VideoFeedSDK0aB22CarrouselTableViewCellC3nibSo5UINibCvgZ",
+                "moduleName": "VideoFeedSDK",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@VideoFeedSDK@objc(cs)VideoFeedCarrouselTableViewCell",
+        "mangledName": "$s12VideoFeedSDK0aB22CarrouselTableViewCellC",
+        "moduleName": "VideoFeedSDK",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UITableViewCell",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UITableViewCell",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VideoFeedSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "VideoFeedSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VideoFeedCarousselDelegate",
+        "printedName": "VideoFeedCarousselDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didTapOnItem",
+            "printedName": "didTapOnItem(at:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12VideoFeedSDK0aB17CarousselDelegateP12didTapOnItem2atySS_tF",
+            "mangledName": "$s12VideoFeedSDK0aB17CarousselDelegateP12didTapOnItem2atySS_tF",
+            "moduleName": "VideoFeedSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : VideoFeedSDK.VideoFeedCarousselDelegate>",
+            "sugared_genericSig": "<Self where Self : VideoFeedSDK.VideoFeedCarousselDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12VideoFeedSDK0aB17CarousselDelegateP",
+        "mangledName": "$s12VideoFeedSDK0aB17CarousselDelegateP",
+        "moduleName": "VideoFeedSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VideoFeedCarrouselView",
+        "printedName": "VideoFeedCarrouselView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VideoFeedCarrouselView",
+                "printedName": "VideoFeedSDK.VideoFeedCarrouselView",
+                "usr": "c:@M@VideoFeedSDK@objc(cs)VideoFeedCarrouselView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@VideoFeedSDK@objc(cs)VideoFeedCarrouselView(im)initWithFrame:",
+            "mangledName": "$s12VideoFeedSDK0aB13CarrouselViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "VideoFeedSDK",
+            "overriding": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "load",
+            "printedName": "load(with:adunitPath:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any VideoFeedSDK.VideoFeedCarousselDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VideoFeedCarousselDelegate",
+                    "printedName": "any VideoFeedSDK.VideoFeedCarousselDelegate",
+                    "usr": "s:12VideoFeedSDK0aB17CarousselDelegateP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12VideoFeedSDK0aB13CarrouselViewC4load4with10adunitPath8delegateySS_SSSgAA0aB17CarousselDelegate_pSgtF",
+            "mangledName": "$s12VideoFeedSDK0aB13CarrouselViewC4load4with10adunitPath8delegateySS_SSSgAA0aB17CarousselDelegate_pSgtF",
+            "moduleName": "VideoFeedSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didFail:withError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@VideoFeedSDK@objc(cs)VideoFeedCarrouselView(im)webView:didFailNavigation:withError:",
+            "mangledName": "$s12VideoFeedSDK0aB13CarrouselViewC03webE0_7didFail9withErrorySo05WKWebE0C_So12WKNavigationCSgs0J0_ptF",
+            "moduleName": "VideoFeedSDK",
+            "objc_name": "webView:didFailNavigation:withError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:decidePolicyFor:decisionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKNavigationAction",
+                "printedName": "WebKit.WKNavigationAction",
+                "usr": "c:objc(cs)WKNavigationAction"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WebKit.WKNavigationActionPolicy) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigationActionPolicy",
+                    "printedName": "WebKit.WKNavigationActionPolicy",
+                    "usr": "c:@E@WKNavigationActionPolicy"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@VideoFeedSDK@objc(cs)VideoFeedCarrouselView(im)webView:decidePolicyForNavigationAction:decisionHandler:",
+            "mangledName": "$s12VideoFeedSDK0aB13CarrouselViewC03webE0_15decidePolicyFor15decisionHandlerySo05WKWebE0C_So18WKNavigationActionCySo0mnH0VctF",
+            "moduleName": "VideoFeedSDK",
+            "objc_name": "webView:decidePolicyForNavigationAction:decisionHandler:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@VideoFeedSDK@objc(cs)VideoFeedCarrouselView",
+        "mangledName": "$s12VideoFeedSDK0aB13CarrouselViewC",
+        "moduleName": "VideoFeedSDK",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VideoFeedSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VideoFeedCarrouselViewSUI",
+        "printedName": "VideoFeedCarrouselViewSUI",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(mdtk:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VideoFeedCarrouselViewSUI",
+                "printedName": "VideoFeedSDK.VideoFeedCarrouselViewSUI",
+                "usr": "s:12VideoFeedSDK0aB16CarrouselViewSUIV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12VideoFeedSDK0aB16CarrouselViewSUIV4mdtkACSS_tcfc",
+            "mangledName": "$s12VideoFeedSDK0aB16CarrouselViewSUIV4mdtkACSS_tcfc",
+            "moduleName": "VideoFeedSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(mdtk:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VideoFeedCarrouselViewSUI",
+                "printedName": "VideoFeedSDK.VideoFeedCarrouselViewSUI",
+                "usr": "s:12VideoFeedSDK0aB16CarrouselViewSUIV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12VideoFeedSDK0aB16CarrouselViewSUIV4mdtk8callbackACSS_ySSctcfc",
+            "mangledName": "$s12VideoFeedSDK0aB16CarrouselViewSUIV4mdtk8callbackACSS_ySSctcfc",
+            "moduleName": "VideoFeedSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(mdtk:adunitPath:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VideoFeedCarrouselViewSUI",
+                "printedName": "VideoFeedSDK.VideoFeedCarrouselViewSUI",
+                "usr": "s:12VideoFeedSDK0aB16CarrouselViewSUIV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12VideoFeedSDK0aB16CarrouselViewSUIV4mdtk10adunitPath8callbackACSS_SSySSctcfc",
+            "mangledName": "$s12VideoFeedSDK0aB16CarrouselViewSUIV4mdtk10adunitPath8callbackACSS_SSySSctcfc",
+            "moduleName": "VideoFeedSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "makeUIView",
+            "printedName": "makeUIView(context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VideoFeedCarrouselView",
+                "printedName": "VideoFeedSDK.VideoFeedCarrouselView",
+                "usr": "c:@M@VideoFeedSDK@objc(cs)VideoFeedCarrouselView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewRepresentableContext",
+                "printedName": "SwiftUI.UIViewRepresentableContext<VideoFeedSDK.VideoFeedCarrouselViewSUI>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VideoFeedCarrouselViewSUI",
+                    "printedName": "VideoFeedSDK.VideoFeedCarrouselViewSUI",
+                    "usr": "s:12VideoFeedSDK0aB16CarrouselViewSUIV"
+                  }
+                ],
+                "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12VideoFeedSDK0aB16CarrouselViewSUIV10makeUIView7contextAA0abdE0C7SwiftUI0H20RepresentableContextVyACG_tF",
+            "mangledName": "$s12VideoFeedSDK0aB16CarrouselViewSUIV10makeUIView7contextAA0abdE0C7SwiftUI0H20RepresentableContextVyACG_tF",
+            "moduleName": "VideoFeedSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateUIView",
+            "printedName": "updateUIView(_:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VideoFeedCarrouselView",
+                "printedName": "VideoFeedSDK.VideoFeedCarrouselView",
+                "usr": "c:@M@VideoFeedSDK@objc(cs)VideoFeedCarrouselView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewRepresentableContext",
+                "printedName": "SwiftUI.UIViewRepresentableContext<VideoFeedSDK.VideoFeedCarrouselViewSUI>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VideoFeedCarrouselViewSUI",
+                    "printedName": "VideoFeedSDK.VideoFeedCarrouselViewSUI",
+                    "usr": "s:12VideoFeedSDK0aB16CarrouselViewSUIV"
+                  }
+                ],
+                "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12VideoFeedSDK0aB16CarrouselViewSUIV12updateUIView_7contextyAA0abdE0C_7SwiftUI0H20RepresentableContextVyACGtF",
+            "mangledName": "$s12VideoFeedSDK0aB16CarrouselViewSUIV12updateUIView_7contextyAA0abdE0C_7SwiftUI0H20RepresentableContextVyACGtF",
+            "moduleName": "VideoFeedSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12VideoFeedSDK0aB16CarrouselViewSUIV",
+        "mangledName": "$s12VideoFeedSDK0aB16CarrouselViewSUIV",
+        "moduleName": "VideoFeedSDK",
+        "intro_iOS": "13.0",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "Available"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UIViewRepresentable",
+            "printedName": "UIViewRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UIViewType",
+                "printedName": "UIViewType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VideoFeedCarrouselView",
+                    "printedName": "VideoFeedSDK.VideoFeedCarrouselView",
+                    "usr": "c:@M@VideoFeedSDK@objc(cs)VideoFeedCarrouselView"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Coordinator",
+                "printedName": "Coordinator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI19UIViewRepresentableP",
+            "mangledName": "$s7SwiftUI19UIViewRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VideoFeedSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "VideoFeedSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VideoFeedViewController",
+        "printedName": "VideoFeedViewController",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(videoId:mdtk:adunitPath:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VideoFeedViewController",
+                "printedName": "VideoFeedSDK.VideoFeedViewController",
+                "usr": "c:@M@VideoFeedSDK@objc(cs)VideoFeedViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12VideoFeedSDK0aB14ViewControllerC7videoId4mdtk10adunitPathACSSSg_SSAGtcfc",
+            "mangledName": "$s12VideoFeedSDK0aB14ViewControllerC7videoId4mdtk10adunitPathACSSSg_SSAGtcfc",
+            "moduleName": "VideoFeedSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Convenience",
+              "AccessControl"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VideoFeedSDK@objc(cs)VideoFeedViewController(im)viewDidLoad",
+            "mangledName": "$s12VideoFeedSDK0aB14ViewControllerC11viewDidLoadyyF",
+            "moduleName": "VideoFeedSDK",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VideoFeedViewController",
+                "printedName": "VideoFeedSDK.VideoFeedViewController",
+                "usr": "c:@M@VideoFeedSDK@objc(cs)VideoFeedViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@VideoFeedSDK@objc(cs)VideoFeedViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s12VideoFeedSDK0aB14ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "VideoFeedSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "VideoFeedSDK.VideoFeedViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VideoFeedViewController",
+                    "printedName": "VideoFeedSDK.VideoFeedViewController",
+                    "usr": "c:@M@VideoFeedSDK@objc(cs)VideoFeedViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@VideoFeedSDK@objc(cs)VideoFeedViewController(im)initWithCoder:",
+            "mangledName": "$s12VideoFeedSDK0aB14ViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "VideoFeedSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "userContentController",
+            "printedName": "userContentController(_:didReceive:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKUserContentController",
+                "printedName": "WebKit.WKUserContentController",
+                "usr": "c:objc(cs)WKUserContentController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKScriptMessage",
+                "printedName": "WebKit.WKScriptMessage",
+                "usr": "c:objc(cs)WKScriptMessage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@VideoFeedSDK@objc(cs)VideoFeedViewController(im)userContentController:didReceiveScriptMessage:",
+            "mangledName": "$s12VideoFeedSDK0aB14ViewControllerC011userContentE0_10didReceiveySo06WKUsergE0C_So15WKScriptMessageCtF",
+            "moduleName": "VideoFeedSDK",
+            "objc_name": "userContentController:didReceiveScriptMessage:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:decidePolicyFor:decisionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKNavigationAction",
+                "printedName": "WebKit.WKNavigationAction",
+                "usr": "c:objc(cs)WKNavigationAction"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WebKit.WKNavigationActionPolicy) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigationActionPolicy",
+                    "printedName": "WebKit.WKNavigationActionPolicy",
+                    "usr": "c:@E@WKNavigationActionPolicy"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@VideoFeedSDK@objc(cs)VideoFeedViewController(im)webView:decidePolicyForNavigationAction:decisionHandler:",
+            "mangledName": "$s12VideoFeedSDK0aB14ViewControllerC03webD0_15decidePolicyFor15decisionHandlerySo05WKWebD0C_So18WKNavigationActionCySo0mnH0VctF",
+            "moduleName": "VideoFeedSDK",
+            "objc_name": "webView:decidePolicyForNavigationAction:decisionHandler:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:decidePolicyFor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WKNavigationResponsePolicy",
+                "printedName": "WebKit.WKNavigationResponsePolicy",
+                "usr": "c:@E@WKNavigationResponsePolicy"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKNavigationResponse",
+                "printedName": "WebKit.WKNavigationResponse",
+                "usr": "c:objc(cs)WKNavigationResponse"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@VideoFeedSDK@objc(cs)VideoFeedViewController(im)webView:decidePolicyForNavigationResponse:decisionHandler:",
+            "mangledName": "$s12VideoFeedSDK0aB14ViewControllerC03webD0_15decidePolicyForSo020WKNavigationResponseH0VSo05WKWebD0C_So0jK0CtYaF",
+            "moduleName": "VideoFeedSDK",
+            "objc_name": "webView:decidePolicyForNavigationResponse:decisionHandler:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:createWebViewWith:for:windowFeatures:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "WebKit.WKWebView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKWebView",
+                    "printedName": "WebKit.WKWebView",
+                    "usr": "c:objc(cs)WKWebView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebViewConfiguration",
+                "printedName": "WebKit.WKWebViewConfiguration",
+                "usr": "c:objc(cs)WKWebViewConfiguration"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKNavigationAction",
+                "printedName": "WebKit.WKNavigationAction",
+                "usr": "c:objc(cs)WKNavigationAction"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWindowFeatures",
+                "printedName": "WebKit.WKWindowFeatures",
+                "usr": "c:objc(cs)WKWindowFeatures"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@VideoFeedSDK@objc(cs)VideoFeedViewController(im)webView:createWebViewWithConfiguration:forNavigationAction:windowFeatures:",
+            "mangledName": "$s12VideoFeedSDK0aB14ViewControllerC03webD0_09createWebD4With3for14windowFeaturesSo05WKWebD0CSgAI_So0mD13ConfigurationCSo18WKNavigationActionCSo08WKWindowL0CtF",
+            "moduleName": "VideoFeedSDK",
+            "objc_name": "webView:createWebViewWithConfiguration:forNavigationAction:windowFeatures:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@VideoFeedSDK@objc(cs)VideoFeedViewController",
+        "mangledName": "$s12VideoFeedSDK0aB14ViewControllerC",
+        "moduleName": "VideoFeedSDK",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VideoFeedSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VideoFeedSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VideoFeedViewSUI",
+        "printedName": "VideoFeedViewSUI",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(videoId:mdtk:adUnitPath:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VideoFeedViewSUI",
+                "printedName": "VideoFeedSDK.VideoFeedViewSUI",
+                "usr": "s:12VideoFeedSDK0aB7ViewSUIV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12VideoFeedSDK0aB7ViewSUIV7videoId4mdtk10adUnitPathACSS_S2SSgtcfc",
+            "mangledName": "$s12VideoFeedSDK0aB7ViewSUIV7videoId4mdtk10adUnitPathACSS_S2SSgtcfc",
+            "moduleName": "VideoFeedSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(mdtk:adUnitPath:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VideoFeedViewSUI",
+                "printedName": "VideoFeedSDK.VideoFeedViewSUI",
+                "usr": "s:12VideoFeedSDK0aB7ViewSUIV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12VideoFeedSDK0aB7ViewSUIV4mdtk10adUnitPathACSS_SSSgtcfc",
+            "mangledName": "$s12VideoFeedSDK0aB7ViewSUIV4mdtk10adUnitPathACSS_SSSgtcfc",
+            "moduleName": "VideoFeedSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "makeUIViewController",
+            "printedName": "makeUIViewController(context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VideoFeedViewController",
+                "printedName": "VideoFeedSDK.VideoFeedViewController",
+                "usr": "c:@M@VideoFeedSDK@objc(cs)VideoFeedViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewControllerRepresentableContext",
+                "printedName": "SwiftUI.UIViewControllerRepresentableContext<VideoFeedSDK.VideoFeedViewSUI>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VideoFeedViewSUI",
+                    "printedName": "VideoFeedSDK.VideoFeedViewSUI",
+                    "usr": "s:12VideoFeedSDK0aB7ViewSUIV"
+                  }
+                ],
+                "usr": "s:7SwiftUI36UIViewControllerRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12VideoFeedSDK0aB7ViewSUIV20makeUIViewController7contextAA0abdH0C7SwiftUI0gH20RepresentableContextVyACG_tF",
+            "mangledName": "$s12VideoFeedSDK0aB7ViewSUIV20makeUIViewController7contextAA0abdH0C7SwiftUI0gH20RepresentableContextVyACG_tF",
+            "moduleName": "VideoFeedSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateUIViewController",
+            "printedName": "updateUIViewController(_:context:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VideoFeedViewController",
+                "printedName": "VideoFeedSDK.VideoFeedViewController",
+                "usr": "c:@M@VideoFeedSDK@objc(cs)VideoFeedViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewControllerRepresentableContext",
+                "printedName": "SwiftUI.UIViewControllerRepresentableContext<VideoFeedSDK.VideoFeedViewSUI>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VideoFeedViewSUI",
+                    "printedName": "VideoFeedSDK.VideoFeedViewSUI",
+                    "usr": "s:12VideoFeedSDK0aB7ViewSUIV"
+                  }
+                ],
+                "usr": "s:7SwiftUI36UIViewControllerRepresentableContextV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12VideoFeedSDK0aB7ViewSUIV22updateUIViewController_7contextyAA0abdH0C_7SwiftUI0gH20RepresentableContextVyACGtF",
+            "mangledName": "$s12VideoFeedSDK0aB7ViewSUIV22updateUIViewController_7contextyAA0abdH0C_7SwiftUI0gH20RepresentableContextVyACGtF",
+            "moduleName": "VideoFeedSDK",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12VideoFeedSDK0aB7ViewSUIV",
+        "mangledName": "$s12VideoFeedSDK0aB7ViewSUIV",
+        "moduleName": "VideoFeedSDK",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UIViewControllerRepresentable",
+            "printedName": "UIViewControllerRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "UIViewControllerType",
+                "printedName": "UIViewControllerType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VideoFeedViewController",
+                    "printedName": "VideoFeedSDK.VideoFeedViewController",
+                    "usr": "c:@M@VideoFeedSDK@objc(cs)VideoFeedViewController"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Coordinator",
+                "printedName": "Coordinator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI29UIViewControllerRepresentableP",
+            "mangledName": "$s7SwiftUI29UIViewControllerRepresentableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/dudouit\/Workspace\/beapp\/Digiteka\/v2\/newv2\/VideoFeedSDK\/VideoFeedSDK\/Extensions\/Bundle+videofeed.swift",
+      "kind": "StringLiteral",
+      "offset": 284,
+      "length": 28,
+      "value": "\"com.beapp.dtk.VideoFeedSDK\""
+    },
+    {
+      "filePath": "\/Users\/dudouit\/Workspace\/beapp\/Digiteka\/v2\/newv2\/VideoFeedSDK\/VideoFeedSDK\/Extensions\/Bundle+videofeed.swift",
+      "kind": "StringLiteral",
+      "offset": 440,
+      "length": 59,
+      "value": "\"unable to find bundle with identifier \""
+    },
+    {
+      "filePath": "\/Users\/dudouit\/Workspace\/beapp\/Digiteka\/v2\/newv2\/VideoFeedSDK\/VideoFeedSDK\/Extensions\/Bundle+videofeed.swift",
+      "kind": "StringLiteral",
+      "offset": 498,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/dudouit\/Workspace\/beapp\/Digiteka\/v2\/newv2\/VideoFeedSDK\/VideoFeedSDK\/Extensions\/UIView+Constraint.swift",
+      "kind": "BooleanLiteral",
+      "offset": 255,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/dudouit\/Workspace\/beapp\/Digiteka\/v2\/newv2\/VideoFeedSDK\/VideoFeedSDK\/Helpers\/VideoFeedUrlHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 171,
+      "length": 24,
+      "value": "\"videofeed.digiteka.com\""
+    },
+    {
+      "filePath": "\/Users\/dudouit\/Workspace\/beapp\/Digiteka\/v2\/newv2\/VideoFeedSDK\/VideoFeedSDK\/Helpers\/VideoFeedUrlHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 220,
+      "length": 11,
+      "value": "\"carrousel\""
+    },
+    {
+      "filePath": "\/Users\/dudouit\/Workspace\/beapp\/Digiteka\/v2\/newv2\/VideoFeedSDK\/VideoFeedSDK\/UI\/VideoFeedViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 605,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

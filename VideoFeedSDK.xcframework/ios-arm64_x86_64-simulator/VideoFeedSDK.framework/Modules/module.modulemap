@@ -1,0 +1,6 @@
+framework module VideoFeedSDK {
+  umbrella header "VideoFeedSDK.h"
+  export *
+
+  module * { export * }
+}
