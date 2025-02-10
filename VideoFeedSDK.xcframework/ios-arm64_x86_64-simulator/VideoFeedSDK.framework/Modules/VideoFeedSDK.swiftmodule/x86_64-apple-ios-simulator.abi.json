@@ -1742,13 +1742,12 @@
           {
             "kind": "Function",
             "name": "webView",
-            "printedName": "webView(_:decidePolicyFor:)",
+            "printedName": "webView(_:decidePolicyFor:decisionHandler:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "WKNavigationResponsePolicy",
-                "printedName": "WebKit.WKNavigationResponsePolicy",
-                "usr": "c:@E@WKNavigationResponsePolicy"
+                "name": "Void",
+                "printedName": "()"
               },
               {
                 "kind": "TypeNominal",
@@ -1761,11 +1760,29 @@
                 "name": "WKNavigationResponse",
                 "printedName": "WebKit.WKNavigationResponse",
                 "usr": "c:objc(cs)WKNavigationResponse"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WebKit.WKNavigationResponsePolicy) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigationResponsePolicy",
+                    "printedName": "WebKit.WKNavigationResponsePolicy",
+                    "usr": "c:@E@WKNavigationResponsePolicy"
+                  }
+                ]
               }
             ],
             "declKind": "Func",
             "usr": "c:@CM@VideoFeedSDK@objc(cs)VideoFeedViewController(im)webView:decidePolicyForNavigationResponse:decisionHandler:",
-            "mangledName": "$s12VideoFeedSDK0aB14ViewControllerC03webD0_15decidePolicyForSo020WKNavigationResponseH0VSo05WKWebD0C_So0jK0CtYaF",
+            "mangledName": "$s12VideoFeedSDK0aB14ViewControllerC03webD0_15decidePolicyFor15decisionHandlerySo05WKWebD0C_So20WKNavigationResponseCySo0mnH0VctF",
             "moduleName": "VideoFeedSDK",
             "objc_name": "webView:decidePolicyForNavigationResponse:decisionHandler:",
             "declAttributes": [
