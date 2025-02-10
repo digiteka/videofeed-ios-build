@@ -1,5 +1,8 @@
 # Changelog
 
+## [2.0.2] - 2025-02-10
+- fix: set minimum deployment target to iOS 12.0
+
 ## [2.0.1] - 2025-01-20
 - fix: add privacy info
 
