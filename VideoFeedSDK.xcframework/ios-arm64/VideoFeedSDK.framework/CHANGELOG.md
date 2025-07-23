@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.1.0] - 2025-07-18
+- feat: add zoneId as parameter to Carousels & video feed
+- feat: add close button support to VideoFeedViewController
+- feat: add callback when link is tapped in VideoFeedViewController
+- fix an issue with meta tag in the caroussel html
+- fix: remove background color from caroussel cells
+- fix: issue with videofeed not stopping when changing tabbar item or when user reoppened the app
+
 ## [2.0.2] - 2025-02-10
 - fix: set minimum deployment target to iOS 12.0
 

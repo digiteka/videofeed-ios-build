@@ -12,7 +12,7 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class VideoFeedCarrouselCollectionViewCell : UIKit.UICollectionViewCell {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func awakeFromNib()
-  @_Concurrency.MainActor @preconcurrency public func load(with mdtk: Swift.String, adunitPath: Swift.String? = nil, delegate: (any VideoFeedSDK.VideoFeedCarousselDelegate)? = nil)
+  @_Concurrency.MainActor @preconcurrency public func load(with mdtk: Swift.String, zoneId: Swift.Int? = nil, adunitPath: Swift.String? = nil, delegate: (any VideoFeedSDK.VideoFeedCarousselDelegate)? = nil)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
@@ -24,7 +24,7 @@ extension VideoFeedSDK.VideoFeedCarrouselCollectionViewCell {
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class VideoFeedCarrouselTableViewCell : UIKit.UITableViewCell {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func awakeFromNib()
-  @_Concurrency.MainActor @preconcurrency public func load(with mdtk: Swift.String, adunitPath: Swift.String? = nil, delegate: (any VideoFeedSDK.VideoFeedCarousselDelegate)? = nil)
+  @_Concurrency.MainActor @preconcurrency public func load(with mdtk: Swift.String, zoneId: Swift.Int? = nil, adunitPath: Swift.String? = nil, delegate: (any VideoFeedSDK.VideoFeedCarousselDelegate)? = nil)
   @available(iOS 3.0, *)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
@@ -40,7 +40,7 @@ public protocol VideoFeedCarousselDelegate : AnyObject {
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class VideoFeedCarrouselView : UIKit.UIView {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor @preconcurrency public func load(with mdtk: Swift.String, adunitPath: Swift.String? = nil, delegate: (any VideoFeedSDK.VideoFeedCarousselDelegate)? = nil)
+  @_Concurrency.MainActor @preconcurrency public func load(with mdtk: Swift.String, zoneId: Swift.Int? = nil, adunitPath: Swift.String? = nil, delegate: (any VideoFeedSDK.VideoFeedCarousselDelegate)? = nil)
   @objc deinit
 }
 extension VideoFeedSDK.VideoFeedCarrouselView : WebKit.WKNavigationDelegate {
@@ -49,9 +49,7 @@ extension VideoFeedSDK.VideoFeedCarrouselView : WebKit.WKNavigationDelegate {
 }
 @available(iOS 13.0, *)
 @_Concurrency.MainActor @preconcurrency public struct VideoFeedCarrouselViewSUI : SwiftUI.UIViewRepresentable {
-  @_Concurrency.MainActor @preconcurrency public init(mdtk: Swift.String)
-  @_Concurrency.MainActor @preconcurrency public init(mdtk: Swift.String, callback: @escaping (Swift.String) -> Swift.Void)
-  @_Concurrency.MainActor @preconcurrency public init(mdtk: Swift.String, adunitPath: Swift.String, callback: @escaping (Swift.String) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency public init(mdtk: Swift.String, zoneId: Swift.Int? = nil, adunitPath: Swift.String? = nil, callback: ((Swift.String) -> Swift.Void)? = nil)
   @_Concurrency.MainActor @preconcurrency public func makeUIView(context: VideoFeedSDK.VideoFeedCarrouselViewSUI.Context) -> VideoFeedSDK.VideoFeedCarrouselView
   @_Concurrency.MainActor @preconcurrency public func updateUIView(_ uiView: VideoFeedSDK.VideoFeedCarrouselView, context: VideoFeedSDK.VideoFeedCarrouselViewSUI.Context)
   @available(iOS 13.0, *)
@@ -61,15 +59,17 @@ extension VideoFeedSDK.VideoFeedCarrouselView : WebKit.WKNavigationDelegate {
   @available(iOS 13.0, *)
   public typealias UIViewType = VideoFeedSDK.VideoFeedCarrouselView
 }
+public protocol VideoFeedDelegate : AnyObject {
+  func handleExternalLink(url: Foundation.URL)
+}
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class VideoFeedViewController : UIKit.UIViewController {
-  @_Concurrency.MainActor @preconcurrency convenience public init(videoId: Swift.String? = nil, mdtk: Swift.String, adunitPath: Swift.String? = nil)
+  @_Concurrency.MainActor @preconcurrency convenience public init(videoId: Swift.String? = nil, zoneId: Swift.Int? = nil, mdtk: Swift.String, adunitPath: Swift.String? = nil, showCloseButton: Swift.Bool = false, delegate: (any VideoFeedSDK.VideoFeedDelegate)? = nil)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
-}
-extension VideoFeedSDK.VideoFeedViewController : WebKit.WKScriptMessageHandler {
-  @_Concurrency.MainActor @preconcurrency @objc dynamic public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
 }
 extension VideoFeedSDK.VideoFeedViewController : WebKit.WKNavigationDelegate {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, decidePolicyFor navigationAction: WebKit.WKNavigationAction, decisionHandler: @escaping @_Concurrency.MainActor (WebKit.WKNavigationActionPolicy) -> Swift.Void)
@@ -78,15 +78,21 @@ extension VideoFeedSDK.VideoFeedViewController : WebKit.WKNavigationDelegate {
 extension VideoFeedSDK.VideoFeedViewController : WebKit.WKUIDelegate {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, createWebViewWith configuration: WebKit.WKWebViewConfiguration, for navigationAction: WebKit.WKNavigationAction, windowFeatures: WebKit.WKWindowFeatures) -> WebKit.WKWebView?
 }
+extension VideoFeedSDK.VideoFeedViewController : WebKit.WKScriptMessageHandler {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
+}
+@available(iOS 13.0, *)
 @_Concurrency.MainActor @preconcurrency public struct VideoFeedViewSUI : SwiftUI.UIViewControllerRepresentable {
   public typealias UIViewControllerType = VideoFeedSDK.VideoFeedViewController
-  @_Concurrency.MainActor @preconcurrency public init(videoId: Swift.String, mdtk: Swift.String, adUnitPath: Swift.String? = nil)
-  @_Concurrency.MainActor @preconcurrency public init(mdtk: Swift.String, adUnitPath: Swift.String? = nil)
+  @_Concurrency.MainActor @preconcurrency public init(videoId: Swift.String? = nil, zoneId: Swift.Int? = nil, mdtk: Swift.String, adUnitPath: Swift.String? = nil, showCloseButton: Swift.Bool = false, onLinkActivated: ((Foundation.URL) -> Swift.Void)? = nil)
   @_Concurrency.MainActor @preconcurrency public func makeUIViewController(context: VideoFeedSDK.VideoFeedViewSUI.Context) -> VideoFeedSDK.VideoFeedViewController
   @_Concurrency.MainActor @preconcurrency public func updateUIViewController(_ uiViewController: VideoFeedSDK.VideoFeedViewController, context: VideoFeedSDK.VideoFeedViewSUI.Context)
+  @available(iOS 13.0, *)
   public typealias Body = Swift.Never
+  @available(iOS 13.0, *)
   public typealias Coordinator = Swift.Void
 }
 @available(iOS 13.0, *)
 extension VideoFeedSDK.VideoFeedCarrouselViewSUI : Swift.Sendable {}
+@available(iOS 13.0, *)
 extension VideoFeedSDK.VideoFeedViewSUI : Swift.Sendable {}

@@ -99,7 +99,7 @@
           {
             "kind": "Function",
             "name": "load",
-            "printedName": "load(with:adunitPath:delegate:)",
+            "printedName": "load(with:zoneId:adunitPath:delegate:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -111,6 +111,21 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -144,8 +159,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12VideoFeedSDK0aB27CarrouselCollectionViewCellC4load4with10adunitPath8delegateySS_SSSgAA0aB17CarousselDelegate_pSgtF",
-            "mangledName": "$s12VideoFeedSDK0aB27CarrouselCollectionViewCellC4load4with10adunitPath8delegateySS_SSSgAA0aB17CarousselDelegate_pSgtF",
+            "usr": "s:12VideoFeedSDK0aB27CarrouselCollectionViewCellC4load4with6zoneId10adunitPath8delegateySS_SiSgSSSgAA0aB17CarousselDelegate_pSgtF",
+            "mangledName": "$s12VideoFeedSDK0aB27CarrouselCollectionViewCellC4load4with6zoneId10adunitPath8delegateySS_SiSgSSSgAA0aB17CarousselDelegate_pSgtF",
             "moduleName": "VideoFeedSDK",
             "declAttributes": [
               "Preconcurrency",
@@ -426,7 +441,7 @@
           {
             "kind": "Function",
             "name": "load",
-            "printedName": "load(with:adunitPath:delegate:)",
+            "printedName": "load(with:zoneId:adunitPath:delegate:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -438,6 +453,21 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -471,8 +501,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12VideoFeedSDK0aB22CarrouselTableViewCellC4load4with10adunitPath8delegateySS_SSSgAA0aB17CarousselDelegate_pSgtF",
-            "mangledName": "$s12VideoFeedSDK0aB22CarrouselTableViewCellC4load4with10adunitPath8delegateySS_SSSgAA0aB17CarousselDelegate_pSgtF",
+            "usr": "s:12VideoFeedSDK0aB22CarrouselTableViewCellC4load4with6zoneId10adunitPath8delegateySS_SiSgSSSgAA0aB17CarousselDelegate_pSgtF",
+            "mangledName": "$s12VideoFeedSDK0aB22CarrouselTableViewCellC4load4with6zoneId10adunitPath8delegateySS_SiSgSSSgAA0aB17CarousselDelegate_pSgtF",
             "moduleName": "VideoFeedSDK",
             "declAttributes": [
               "Preconcurrency",
@@ -852,7 +882,7 @@
           {
             "kind": "Function",
             "name": "load",
-            "printedName": "load(with:adunitPath:delegate:)",
+            "printedName": "load(with:zoneId:adunitPath:delegate:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -864,6 +894,21 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -897,8 +942,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12VideoFeedSDK0aB13CarrouselViewC4load4with10adunitPath8delegateySS_SSSgAA0aB17CarousselDelegate_pSgtF",
-            "mangledName": "$s12VideoFeedSDK0aB13CarrouselViewC4load4with10adunitPath8delegateySS_SSSgAA0aB17CarousselDelegate_pSgtF",
+            "usr": "s:12VideoFeedSDK0aB13CarrouselViewC4load4with6zoneId10adunitPath8delegateySS_SiSgSSSgAA0aB17CarousselDelegate_pSgtF",
+            "mangledName": "$s12VideoFeedSDK0aB13CarrouselViewC4load4with6zoneId10adunitPath8delegateySS_SiSgSSSgAA0aB17CarousselDelegate_pSgtF",
             "moduleName": "VideoFeedSDK",
             "declAttributes": [
               "Preconcurrency",
@@ -1141,36 +1186,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(mdtk:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "VideoFeedCarrouselViewSUI",
-                "printedName": "VideoFeedSDK.VideoFeedCarrouselViewSUI",
-                "usr": "s:12VideoFeedSDK0aB16CarrouselViewSUIV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:12VideoFeedSDK0aB16CarrouselViewSUIV4mdtkACSS_tcfc",
-            "mangledName": "$s12VideoFeedSDK0aB16CarrouselViewSUIV4mdtkACSS_tcfc",
-            "moduleName": "VideoFeedSDK",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(mdtk:callback:)",
+            "printedName": "init(mdtk:zoneId:adunitPath:callback:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1185,80 +1201,66 @@
                 "usr": "s:SS"
               },
               {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.String) -> ()",
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "String",
                     "printedName": "Swift.String",
                     "usr": "s:SS"
                   }
-                ]
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:12VideoFeedSDK0aB16CarrouselViewSUIV4mdtk8callbackACSS_ySSctcfc",
-            "mangledName": "$s12VideoFeedSDK0aB16CarrouselViewSUIV4mdtk8callbackACSS_ySSctcfc",
-            "moduleName": "VideoFeedSDK",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(mdtk:adunitPath:callback:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "VideoFeedCarrouselViewSUI",
-                "printedName": "VideoFeedSDK.VideoFeedCarrouselViewSUI",
-                "usr": "s:12VideoFeedSDK0aB16CarrouselViewSUIV"
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.String) -> ()",
+                "name": "Optional",
+                "printedName": "((Swift.String) -> ())?",
                 "children": [
                   {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
                   }
-                ]
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12VideoFeedSDK0aB16CarrouselViewSUIV4mdtk10adunitPath8callbackACSS_SSySSctcfc",
-            "mangledName": "$s12VideoFeedSDK0aB16CarrouselViewSUIV4mdtk10adunitPath8callbackACSS_SSySSctcfc",
+            "usr": "s:12VideoFeedSDK0aB16CarrouselViewSUIV4mdtk6zoneId10adunitPath8callbackACSS_SiSgSSSgySScSgtcfc",
+            "mangledName": "$s12VideoFeedSDK0aB16CarrouselViewSUIV4mdtk6zoneId10adunitPath8callbackACSS_SiSgSSSgySScSgtcfc",
             "moduleName": "VideoFeedSDK",
             "declAttributes": [
               "Preconcurrency",
@@ -1457,13 +1459,75 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "VideoFeedDelegate",
+        "printedName": "VideoFeedDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "handleExternalLink",
+            "printedName": "handleExternalLink(url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12VideoFeedSDK0aB8DelegateP18handleExternalLink3urly10Foundation3URLV_tF",
+            "mangledName": "$s12VideoFeedSDK0aB8DelegateP18handleExternalLink3urly10Foundation3URLV_tF",
+            "moduleName": "VideoFeedSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : VideoFeedSDK.VideoFeedDelegate>",
+            "sugared_genericSig": "<Self where Self : VideoFeedSDK.VideoFeedDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12VideoFeedSDK0aB8DelegateP",
+        "mangledName": "$s12VideoFeedSDK0aB8DelegateP",
+        "moduleName": "VideoFeedSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "VideoFeedViewController",
         "printedName": "VideoFeedViewController",
         "children": [
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(videoId:mdtk:adunitPath:)",
+            "printedName": "init(videoId:zoneId:mdtk:adunitPath:showCloseButton:delegate:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1481,6 +1545,21 @@
                     "name": "String",
                     "printedName": "Swift.String",
                     "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
                   }
                 ],
                 "hasDefaultArg": true,
@@ -1506,11 +1585,33 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any VideoFeedSDK.VideoFeedDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VideoFeedDelegate",
+                    "printedName": "any VideoFeedSDK.VideoFeedDelegate",
+                    "usr": "s:12VideoFeedSDK0aB8DelegateP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12VideoFeedSDK0aB14ViewControllerC7videoId4mdtk10adunitPathACSSSg_SSAGtcfc",
-            "mangledName": "$s12VideoFeedSDK0aB14ViewControllerC7videoId4mdtk10adunitPathACSSSg_SSAGtcfc",
+            "usr": "s:12VideoFeedSDK0aB14ViewControllerC7videoId04zoneG04mdtk10adunitPath15showCloseButton8delegateACSSSg_SiSgSSAJSbAA0aB8Delegate_pSgtcfc",
+            "mangledName": "$s12VideoFeedSDK0aB14ViewControllerC7videoId04zoneG04mdtk10adunitPath15showCloseButton8delegateACSSSg_SiSgSSAJSbAA0aB8Delegate_pSgtcfc",
             "moduleName": "VideoFeedSDK",
             "declAttributes": [
               "Preconcurrency",
@@ -1537,6 +1638,72 @@
             "moduleName": "VideoFeedSDK",
             "overriding": true,
             "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidAppear",
+            "printedName": "viewDidAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VideoFeedSDK@objc(cs)VideoFeedViewController(im)viewDidAppear:",
+            "mangledName": "$s12VideoFeedSDK0aB14ViewControllerC13viewDidAppearyySbF",
+            "moduleName": "VideoFeedSDK",
+            "overriding": true,
+            "objc_name": "viewDidAppear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillDisappear",
+            "printedName": "viewWillDisappear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VideoFeedSDK@objc(cs)VideoFeedViewController(im)viewWillDisappear:",
+            "mangledName": "$s12VideoFeedSDK0aB14ViewControllerC17viewWillDisappearyySbF",
+            "moduleName": "VideoFeedSDK",
+            "overriding": true,
+            "objc_name": "viewWillDisappear:",
             "declAttributes": [
               "Dynamic",
               "ObjC",
@@ -1644,44 +1811,6 @@
               "Required"
             ],
             "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "userContentController",
-            "printedName": "userContentController(_:didReceive:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "WKUserContentController",
-                "printedName": "WebKit.WKUserContentController",
-                "usr": "c:objc(cs)WKUserContentController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "WKScriptMessage",
-                "printedName": "WebKit.WKScriptMessage",
-                "usr": "c:objc(cs)WKScriptMessage"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@VideoFeedSDK@objc(cs)VideoFeedViewController(im)userContentController:didReceiveScriptMessage:",
-            "mangledName": "$s12VideoFeedSDK0aB14ViewControllerC011userContentE0_10didReceiveySo06WKUsergE0C_So15WKScriptMessageCtF",
-            "moduleName": "VideoFeedSDK",
-            "objc_name": "userContentController:didReceiveScriptMessage:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
@@ -1853,6 +1982,44 @@
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "userContentController",
+            "printedName": "userContentController(_:didReceive:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKUserContentController",
+                "printedName": "WebKit.WKUserContentController",
+                "usr": "c:objc(cs)WKUserContentController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKScriptMessage",
+                "printedName": "WebKit.WKScriptMessage",
+                "usr": "c:objc(cs)WKScriptMessage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@VideoFeedSDK@objc(cs)VideoFeedViewController(im)userContentController:didReceiveScriptMessage:",
+            "mangledName": "$s12VideoFeedSDK0aB14ViewControllerC011userContentE0_10didReceiveySo06WKUsergE0C_So15WKScriptMessageCtF",
+            "moduleName": "VideoFeedSDK",
+            "objc_name": "userContentController:didReceiveScriptMessage:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -1977,7 +2144,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(videoId:mdtk:adUnitPath:)",
+            "printedName": "init(videoId:zoneId:mdtk:adUnitPath:showCloseButton:onLinkActivated:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1987,9 +2154,33 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -2011,46 +2202,36 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:12VideoFeedSDK0aB7ViewSUIV7videoId4mdtk10adUnitPathACSS_S2SSgtcfc",
-            "mangledName": "$s12VideoFeedSDK0aB7ViewSUIV7videoId4mdtk10adUnitPathACSS_S2SSgtcfc",
-            "moduleName": "VideoFeedSDK",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(mdtk:adUnitPath:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "VideoFeedViewSUI",
-                "printedName": "VideoFeedSDK.VideoFeedViewSUI",
-                "usr": "s:12VideoFeedSDK0aB7ViewSUIV"
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               },
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.String?",
+                "printedName": "((Foundation.URL) -> ())?",
                 "children": [
                   {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.URL) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ]
                   }
                 ],
                 "hasDefaultArg": true,
@@ -2058,8 +2239,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12VideoFeedSDK0aB7ViewSUIV4mdtk10adUnitPathACSS_SSSgtcfc",
-            "mangledName": "$s12VideoFeedSDK0aB7ViewSUIV4mdtk10adUnitPathACSS_SSSgtcfc",
+            "usr": "s:12VideoFeedSDK0aB7ViewSUIV7videoId04zoneG04mdtk10adUnitPath15showCloseButton15onLinkActivatedACSSSg_SiSgSSAJSby10Foundation3URLVcSgtcfc",
+            "mangledName": "$s12VideoFeedSDK0aB7ViewSUIV7videoId04zoneG04mdtk10adUnitPath15showCloseButton15onLinkActivatedACSSSg_SiSgSSAJSby10Foundation3URLVcSgtcfc",
             "moduleName": "VideoFeedSDK",
             "declAttributes": [
               "Preconcurrency",
@@ -2152,10 +2333,12 @@
         "usr": "s:12VideoFeedSDK0aB7ViewSUIV",
         "mangledName": "$s12VideoFeedSDK0aB7ViewSUIV",
         "moduleName": "VideoFeedSDK",
+        "intro_iOS": "13.0",
         "declAttributes": [
           "Preconcurrency",
           "Custom",
-          "AccessControl"
+          "AccessControl",
+          "Available"
         ],
         "conformances": [
           {
@@ -2284,9 +2467,44 @@
       "value": "\"carrousel\""
     },
     {
+      "filePath": "\/Users\/dudouit\/Workspace\/beapp\/Digiteka\/v2\/newv2\/VideoFeedSDK\/VideoFeedSDK\/Helpers\/VideoFeedUrlHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 360,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/dudouit\/Workspace\/beapp\/Digiteka\/v2\/newv2\/VideoFeedSDK\/VideoFeedSDK\/UI\/VideoFeedCarrouselView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 560,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/dudouit\/Workspace\/beapp\/Digiteka\/v2\/newv2\/VideoFeedSDK\/VideoFeedSDK\/UI\/VideoFeedViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 605,
+      "offset": 740,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/dudouit\/Workspace\/beapp\/Digiteka\/v2\/newv2\/VideoFeedSDK\/VideoFeedSDK\/UI\/VideoFeedViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 925,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/dudouit\/Workspace\/beapp\/Digiteka\/v2\/newv2\/VideoFeedSDK\/VideoFeedSDK\/UI\/VideoFeedViewSUI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 458,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/dudouit\/Workspace\/beapp\/Digiteka\/v2\/newv2\/VideoFeedSDK\/VideoFeedSDK\/UI\/VideoFeedViewSUI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 683,
       "length": 5,
       "value": "false"
     }
