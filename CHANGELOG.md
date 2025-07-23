@@ -1,4 +1,6 @@
 # Changelog
+## [2.1.1] - 2025-07-23 
+- fix issue with xcframework signature
 
 ## [2.1.0] - 2025-07-18
 - feat: add zoneId as parameter to Carousels & video feed
