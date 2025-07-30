@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'VideoFeedSDK'
-    s.version          = '2.1.1'
+    s.version          = '2.1.2'
     s.summary          = 'This Pod allows you to display the Digiteka VideoFeed view'
     
     s.homepage         = 'https://github.com/digiteka/videofeed-ios-build.git'
