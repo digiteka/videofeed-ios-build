@@ -1,5 +1,8 @@
 # Changelog
 
+## [2.1.2] - 2025-07-28
+- fix modal presentation to fullscreen to avoid glitches
+
 ## [2.1.0] - 2025-07-18
 - feat: add zoneId as parameter to Carousels & video feed
 - feat: add close button support to VideoFeedViewController
