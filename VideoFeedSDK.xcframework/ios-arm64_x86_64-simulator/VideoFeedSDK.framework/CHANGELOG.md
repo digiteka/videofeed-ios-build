@@ -1,5 +1,8 @@
 # Changelog
 
+## [2.1.3] - 2025-09-04
+- fix adunitPath in videofeed
+
 ## [2.1.2] - 2025-07-28
 - fix modal presentation to fullscreen to avoid glitches
 
