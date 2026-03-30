@@ -1,5 +1,8 @@
 # Changelog
 
+## [2.1.4] - 2026-03-30
+- fix missing completion handler call
+
 ## [2.1.3] - 2025-09-04
 - fix adunitPath in videofeed
 
