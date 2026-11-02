@@ -99,7 +99,7 @@
           {
             "kind": "Function",
             "name": "load",
-            "printedName": "load(with:zoneId:adunitPath:delegate:)",
+            "printedName": "load(with:zoneId:adunitPath:adunitPathInterstitial:custParams:targetings:backgroundCarrouselColor:delegate:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -145,6 +145,66 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
                 "printedName": "(any VideoFeedSDK.VideoFeedCarousselDelegate)?",
                 "children": [
                   {
@@ -159,8 +219,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12VideoFeedSDK0aB27CarrouselCollectionViewCellC4load4with6zoneId10adunitPath8delegateySS_SiSgSSSgAA0aB17CarousselDelegate_pSgtF",
-            "mangledName": "$s12VideoFeedSDK0aB27CarrouselCollectionViewCellC4load4with6zoneId10adunitPath8delegateySS_SiSgSSSgAA0aB17CarousselDelegate_pSgtF",
+            "usr": "s:12VideoFeedSDK0aB27CarrouselCollectionViewCellC4load4with6zoneId10adunitPath0lM12Interstitial10custParams10targetings010backgroundD5Color8delegateySS_SiSgSSSgA3NSo7UIColorCSgAA0aB17CarousselDelegate_pSgtF",
+            "mangledName": "$s12VideoFeedSDK0aB27CarrouselCollectionViewCellC4load4with6zoneId10adunitPath0lM12Interstitial10custParams10targetings010backgroundD5Color8delegateySS_SiSgSSSgA3NSo7UIColorCSgAA0aB17CarousselDelegate_pSgtF",
             "moduleName": "VideoFeedSDK",
             "declAttributes": [
               "Preconcurrency",
@@ -319,38 +379,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -361,17 +393,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
           },
           {
             "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
@@ -382,10 +414,31 @@
           },
           {
             "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           },
           {
             "kind": "Conformance",
@@ -393,6 +446,13 @@
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
       },
@@ -441,7 +501,7 @@
           {
             "kind": "Function",
             "name": "load",
-            "printedName": "load(with:zoneId:adunitPath:delegate:)",
+            "printedName": "load(with:zoneId:adunitPath:adunitPathInterstitial:custParams:targetings:backgroundCarrouselColor:delegate:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -487,6 +547,66 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
                 "printedName": "(any VideoFeedSDK.VideoFeedCarousselDelegate)?",
                 "children": [
                   {
@@ -501,8 +621,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12VideoFeedSDK0aB22CarrouselTableViewCellC4load4with6zoneId10adunitPath8delegateySS_SiSgSSSgAA0aB17CarousselDelegate_pSgtF",
-            "mangledName": "$s12VideoFeedSDK0aB22CarrouselTableViewCellC4load4with6zoneId10adunitPath8delegateySS_SiSgSSSgAA0aB17CarousselDelegate_pSgtF",
+            "usr": "s:12VideoFeedSDK0aB22CarrouselTableViewCellC4load4with6zoneId10adunitPath0lM12Interstitial10custParams10targetings010backgroundD5Color8delegateySS_SiSgSSSgA3NSo7UIColorCSgAA0aB17CarousselDelegate_pSgtF",
+            "mangledName": "$s12VideoFeedSDK0aB22CarrouselTableViewCellC4load4with6zoneId10adunitPath0lM12Interstitial10custParams10targetings010backgroundD5Color8delegateySS_SiSgSSSgA3NSo7UIColorCSgAA0aB17CarousselDelegate_pSgtF",
             "moduleName": "VideoFeedSDK",
             "declAttributes": [
               "Preconcurrency",
@@ -676,38 +796,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -718,17 +810,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
           },
           {
             "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
@@ -739,17 +831,31 @@
           },
           {
             "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
           },
           {
             "kind": "Conformance",
-            "name": "__DefaultCustomPlaygroundQuickLookable",
-            "printedName": "__DefaultCustomPlaygroundQuickLookable",
-            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
-            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           },
           {
             "kind": "Conformance",
@@ -764,6 +870,20 @@
             "printedName": "SendableMetatype",
             "usr": "s:s16SendableMetatypeP",
             "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
       },
@@ -792,7 +912,7 @@
           {
             "kind": "Function",
             "name": "didTapOnItem",
-            "printedName": "didTapOnItem(at:)",
+            "printedName": "didTapOnItem(at:zoneId:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -804,11 +924,25 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:12VideoFeedSDK0aB17CarousselDelegateP12didTapOnItem2atySS_tF",
-            "mangledName": "$s12VideoFeedSDK0aB17CarousselDelegateP12didTapOnItem2atySS_tF",
+            "usr": "s:12VideoFeedSDK0aB17CarousselDelegateP12didTapOnItem2at6zoneIdySS_SiSgtF",
+            "mangledName": "$s12VideoFeedSDK0aB17CarousselDelegateP12didTapOnItem2at6zoneIdySS_SiSgtF",
             "moduleName": "VideoFeedSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : VideoFeedSDK.VideoFeedCarousselDelegate>",
             "sugared_genericSig": "<Self where Self : VideoFeedSDK.VideoFeedCarousselDelegate>",
@@ -889,7 +1023,7 @@
           {
             "kind": "Function",
             "name": "load",
-            "printedName": "load(with:zoneId:adunitPath:delegate:)",
+            "printedName": "load(with:zoneId:adunitPath:adunitPathInterstitial:custParams:targetings:backgroundCarrouselColor:delegate:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -935,6 +1069,66 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
                 "printedName": "(any VideoFeedSDK.VideoFeedCarousselDelegate)?",
                 "children": [
                   {
@@ -949,8 +1143,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12VideoFeedSDK0aB13CarrouselViewC4load4with6zoneId10adunitPath8delegateySS_SiSgSSSgAA0aB17CarousselDelegate_pSgtF",
-            "mangledName": "$s12VideoFeedSDK0aB13CarrouselViewC4load4with6zoneId10adunitPath8delegateySS_SiSgSSSgAA0aB17CarousselDelegate_pSgtF",
+            "usr": "s:12VideoFeedSDK0aB13CarrouselViewC4load4with6zoneId10adunitPath0jK12Interstitial10custParams10targetings010backgroundD5Color8delegateySS_SiSgSSSgA3NSo7UIColorCSgAA0aB17CarousselDelegate_pSgtF",
+            "mangledName": "$s12VideoFeedSDK0aB13CarrouselViewC4load4with6zoneId10adunitPath0jK12Interstitial10custParams10targetings010backgroundD5Color8delegateySS_SiSgSSSgA3NSo7UIColorCSgAA0aB17CarousselDelegate_pSgtF",
             "moduleName": "VideoFeedSDK",
             "declAttributes": [
               "Preconcurrency",
@@ -1091,38 +1285,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -1133,17 +1299,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
           },
           {
             "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
@@ -1154,17 +1320,31 @@
           },
           {
             "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
           },
           {
             "kind": "Conformance",
-            "name": "__DefaultCustomPlaygroundQuickLookable",
-            "printedName": "__DefaultCustomPlaygroundQuickLookable",
-            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
-            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           },
           {
             "kind": "Conformance",
@@ -1179,6 +1359,20 @@
             "printedName": "SendableMetatype",
             "usr": "s:s16SendableMetatypeP",
             "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
       },
@@ -1193,6 +1387,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VideoFeedSDK"
+      },
+      {
         "kind": "TypeDecl",
         "name": "VideoFeedCarrouselViewSUI",
         "printedName": "VideoFeedCarrouselViewSUI",
@@ -1200,7 +1401,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(mdtk:zoneId:adunitPath:callback:)",
+            "printedName": "init(mdtk:zoneId:adunitPath:adunitPathInterstitial:custParams:targetings:backgroundCarrouselColor:callback:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1247,12 +1448,72 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Swift.String) -> ())?",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.String, Swift.Int?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.String) -> ()",
+                    "printedName": "(Swift.String, Swift.Int?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -1261,9 +1522,30 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
+                        "name": "Tuple",
+                        "printedName": "(Swift.String, Swift.Int?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.Int?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Int",
+                                "printedName": "Swift.Int",
+                                "usr": "s:Si"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
                       }
                     ]
                   }
@@ -1273,8 +1555,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12VideoFeedSDK0aB16CarrouselViewSUIV4mdtk6zoneId10adunitPath8callbackACSS_SiSgSSSgySScSgtcfc",
-            "mangledName": "$s12VideoFeedSDK0aB16CarrouselViewSUIV4mdtk6zoneId10adunitPath8callbackACSS_SiSgSSSgySScSgtcfc",
+            "usr": "s:12VideoFeedSDK0aB16CarrouselViewSUIV4mdtk6zoneId10adunitPath0jK12Interstitial10custParams10targetings010backgroundD5Color8callbackACSS_SiSgSSSgA3MSo7UIColorCSgySS_ALtcSgtcfc",
+            "mangledName": "$s12VideoFeedSDK0aB16CarrouselViewSUIV4mdtk6zoneId10adunitPath0jK12Interstitial10custParams10targetings010backgroundD5Color8callbackACSS_SiSgSSSgA3MSo7UIColorCSgySS_ALtcSgtcfc",
             "moduleName": "VideoFeedSDK",
             "declAttributes": [
               "Preconcurrency",
@@ -1541,7 +1823,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(videoId:zoneId:mdtk:adunitPath:showCloseButton:delegate:)",
+            "printedName": "init(videoId:zoneId:mdtk:adunitPath:adunitPathInterstitial:custParams:targetings:showCloseButton:delegate:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1602,6 +1884,51 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "Bool",
                 "printedName": "Swift.Bool",
                 "hasDefaultArg": true,
@@ -1624,8 +1951,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12VideoFeedSDK0aB14ViewControllerC7videoId04zoneG04mdtk10adunitPath15showCloseButton8delegateACSSSg_SiSgSSAJSbAA0aB8Delegate_pSgtcfc",
-            "mangledName": "$s12VideoFeedSDK0aB14ViewControllerC7videoId04zoneG04mdtk10adunitPath15showCloseButton8delegateACSSSg_SiSgSSAJSbAA0aB8Delegate_pSgtcfc",
+            "usr": "s:12VideoFeedSDK0aB14ViewControllerC7videoId04zoneG04mdtk10adunitPath0jK12Interstitial10custParams10targetings15showCloseButton8delegateACSSSg_SiSgSSA4MSbAA0aB8Delegate_pSgtcfc",
+            "mangledName": "$s12VideoFeedSDK0aB14ViewControllerC7videoId04zoneG04mdtk10adunitPath0jK12Interstitial10custParams10targetings15showCloseButton8delegateACSSSg_SiSgSSA4MSbAA0aB8Delegate_pSgtcfc",
             "moduleName": "VideoFeedSDK",
             "declAttributes": [
               "Preconcurrency",
@@ -2056,38 +2383,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
           },
           {
             "kind": "Conformance",
@@ -2098,17 +2397,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
           },
           {
             "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
@@ -2119,10 +2418,31 @@
           },
           {
             "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
           },
           {
             "kind": "Conformance",
@@ -2137,6 +2457,13 @@
             "printedName": "SendableMetatype",
             "usr": "s:s16SendableMetatypeP",
             "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
       },
@@ -2165,7 +2492,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(videoId:zoneId:mdtk:adUnitPath:showCloseButton:onLinkActivated:)",
+            "printedName": "init(videoId:zoneId:mdtk:adUnitPath:adUnitPathInterstitial:custParams:targetings:showCloseButton:onLinkActivated:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2226,6 +2553,51 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "Bool",
                 "printedName": "Swift.Bool",
                 "hasDefaultArg": true,
@@ -2260,8 +2632,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12VideoFeedSDK0aB7ViewSUIV7videoId04zoneG04mdtk10adUnitPath15showCloseButton15onLinkActivatedACSSSg_SiSgSSAJSby10Foundation3URLVcSgtcfc",
-            "mangledName": "$s12VideoFeedSDK0aB7ViewSUIV7videoId04zoneG04mdtk10adUnitPath15showCloseButton15onLinkActivatedACSSSg_SiSgSSAJSby10Foundation3URLVcSgtcfc",
+            "usr": "s:12VideoFeedSDK0aB7ViewSUIV7videoId04zoneG04mdtk10adUnitPath0jkL12Interstitial10custParams10targetings15showCloseButton15onLinkActivatedACSSSg_SiSgSSA4MSby10Foundation3URLVcSgtcfc",
+            "mangledName": "$s12VideoFeedSDK0aB7ViewSUIV7videoId04zoneG04mdtk10adUnitPath0jkL12Interstitial10custParams10targetings15showCloseButton15onLinkActivatedACSSSg_SiSgSSA4MSby10Foundation3URLVcSgtcfc",
             "moduleName": "VideoFeedSDK",
             "declAttributes": [
               "Preconcurrency",
@@ -2440,6 +2812,75 @@
             "mangledName": "$ss8SendableP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VideoFeedSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VideoFeed",
+        "printedName": "VideoFeed",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "setHost",
+            "printedName": "setHost(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12VideoFeedSDK0aB0C7setHostyySSFZ",
+            "mangledName": "$s12VideoFeedSDK0aB0C7setHostyySSFZ",
+            "moduleName": "VideoFeedSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12VideoFeedSDK0aB0C",
+        "mangledName": "$s12VideoFeedSDK0aB0C",
+        "moduleName": "VideoFeedSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
@@ -2476,56 +2917,56 @@
     {
       "filePath": "\/Users\/dudouit\/Workspace\/beapp\/Digiteka\/v2\/newv2\/VideoFeedSDK\/VideoFeedSDK\/Helpers\/VideoFeedUrlHelper.swift",
       "kind": "StringLiteral",
-      "offset": 171,
+      "offset": 182,
       "length": 24,
       "value": "\"videofeed.digiteka.com\""
     },
     {
       "filePath": "\/Users\/dudouit\/Workspace\/beapp\/Digiteka\/v2\/newv2\/VideoFeedSDK\/VideoFeedSDK\/Helpers\/VideoFeedUrlHelper.swift",
       "kind": "StringLiteral",
-      "offset": 220,
+      "offset": 379,
       "length": 11,
       "value": "\"carrousel\""
     },
     {
       "filePath": "\/Users\/dudouit\/Workspace\/beapp\/Digiteka\/v2\/newv2\/VideoFeedSDK\/VideoFeedSDK\/Helpers\/VideoFeedUrlHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 360,
+      "offset": 620,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dudouit\/Workspace\/beapp\/Digiteka\/v2\/newv2\/VideoFeedSDK\/VideoFeedSDK\/UI\/VideoFeedCarrouselView.swift",
       "kind": "IntegerLiteral",
-      "offset": 560,
+      "offset": 628,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/dudouit\/Workspace\/beapp\/Digiteka\/v2\/newv2\/VideoFeedSDK\/VideoFeedSDK\/UI\/VideoFeedViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 740,
+      "offset": 794,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dudouit\/Workspace\/beapp\/Digiteka\/v2\/newv2\/VideoFeedSDK\/VideoFeedSDK\/UI\/VideoFeedViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 925,
+      "offset": 1096,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dudouit\/Workspace\/beapp\/Digiteka\/v2\/newv2\/VideoFeedSDK\/VideoFeedSDK\/UI\/VideoFeedViewSUI.swift",
       "kind": "BooleanLiteral",
-      "offset": 458,
+      "offset": 578,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dudouit\/Workspace\/beapp\/Digiteka\/v2\/newv2\/VideoFeedSDK\/VideoFeedSDK\/UI\/VideoFeedViewSUI.swift",
       "kind": "BooleanLiteral",
-      "offset": 683,
+      "offset": 920,
       "length": 5,
       "value": "false"
     }

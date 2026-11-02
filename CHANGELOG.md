@@ -1,19 +1,29 @@
 # Changelog
 
+## [2.2.1] - 2026-06-03
+- fix: remove reload at each updateUIView trigger
+
+## [2.2.0/1] - 2026-06-03
+- feat: add ad params (adunitPathInterstitial, custParams, targetings)
+
+## [2.2.0/0] - 2026-03-30
+- feat: handle zoneId param in init functions
+- feat: handle new backgroundCarrouselColor param
+
 ## [2.1.4] - 2026-03-30
-- fix missing completion handler call
+- fix: missing completion handler call
 
 ## [2.1.3] - 2025-09-04
-- fix adunitPath in videofeed
+- fix: adunitPath in videofeed
 
 ## [2.1.2] - 2025-07-28
-- fix modal presentation to fullscreen to avoid glitches
+- fix: modal presentation to fullscreen to avoid glitches
 
 ## [2.1.0] - 2025-07-18
 - feat: add zoneId as parameter to Carousels & video feed
 - feat: add close button support to VideoFeedViewController
 - feat: add callback when link is tapped in VideoFeedViewController
-- fix an issue with meta tag in the caroussel html
+- fix: an issue with meta tag in the caroussel html
 - fix: remove background color from caroussel cells
 - fix: issue with videofeed not stopping when changing tabbar item or when user reoppened the app
 
